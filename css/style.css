@@ -1,0 +1,575 @@
+.bgimg{
+    background-image: url('../image/farming.jpeg');
+width:100%;
+height:850px;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+
+.alert {
+    text-align: center;
+    padding: 10px;
+    background: rgb(168, 240, 177);
+    color: green;
+    margin-bottom: 10px;
+    display: none;
+  }
+
+.Logo{
+    height:40px;
+    width:120px;
+    margin-left:5%;
+}
+
+#loading{
+    position:fixed;
+    width: 100%;
+    height:100%;
+    background: rgb(7, 2, 2) 
+    url('../image/spinner2.gif') 
+    no-repeat center;
+    z-index: 99999;
+    /* margin-top:50%; */
+
+
+}
+.navbar-item{
+font-weight: 400;
+margin-right:33px;
+}
+.navbar .nav-link:hover{
+    background-color: rgb(61, 94, 28);   
+    
+    }
+ 
+
+.headerset{
+    padding:470px;
+  
+}
+.main{
+    background-color: rgb(200, 241, 158);
+    opacity: 0.8;
+    padding:10px;
+    border-radius: 10px;
+    color:rgb(0, 0, 0) ;
+}
+
+.about{
+    margin-top:30px;
+    padding:30px;
+    font-size: 30px;
+  
+}
+ .text{
+     background-color: rgb(200, 241, 158);
+     opacity:0.8;
+     border-radius: 10px;
+     color:rgb(0, 0, 0) ;
+     padding:10px;
+     margin-top:30px;
+    
+ }
+ .benefit{
+    margin-top: 80px;    
+    margin-bottom:30px;  
+}
+
+ .img{
+     width:200px;
+     height:200px;
+     padding: 20px;
+     margin-left: 20%;;
+       
+    
+ }
+ .title{
+     /* background-color: rgb(200, 241, 158); */
+     text-align: center;
+     font-size: 20px; 
+     background-color:rgb(200, 241, 158) ;
+     opacity:0.8;
+     border-radius: 20px;
+     width:90%;
+    }
+ .row{
+     padding:20px;
+   
+ }
+
+.mentor-heading{
+    font-weight: 700;
+}
+
+.mentor-image{
+    width:180px;
+    height:170px;
+    border:7px solid rgba(0,0,0,.1);
+   
+}
+
+.mentor h2{
+  
+    font-size:20px;
+    font-weight:500;
+}
+
+.incubation h2{
+    font-size:20px;
+    font-weight: 500px;
+}
+
+.incubation img{
+    border:7px solid rgba(0,0,0,.1);
+    height:170px; 
+    width:180px;
+}
+/* 
+.mentor{
+    background-color:  hsla(65, 24%, 81%, 0.822);
+} */
+
+/* .mentor{
+    width:48%;
+} */
+
+ /* team */
+
+
+ .team{
+     font-weight: 700;
+     /* margin-top: 20%; */
+    }
+
+ .team-img{
+     width:225px;
+     height:225px;
+     border-radius: 150px;
+     margin-left: 15%;
+     border:7px solid rgba(0,0,0,.1);
+     margin-top:40px;
+    
+ }
+
+ .team-member{
+     font-size: 25px;
+     font-weight: 500;
+     margin: auto;
+     text-align: center;
+
+ }
+
+ /* footer */
+ .footer1{
+     /* background-color: rgb(200, 241, 158) ; */
+     height:auto;
+     width:100%;
+    
+ }
+
+ 
+
+ form{
+     padding:50px;
+/* border: 2px solid rgb(76, 230, 76); */
+background-color: rgba(255, 255, 255, 0.897)  ;
+width:70%;
+border-radius: 10px;
+/* margin-left:30px;   */
+ }
+ .social{
+    margin-right:16%;
+}
+ 
+ ul.social-network{
+     margin-top: 10%;
+     
+ }
+
+ 
+
+ ul.social-network li {
+	display:inline;
+	margin: 60px;	
+	font-size:25px;	
+    margin-left:0%;
+
+  
+}
+
+ul.social-network li a {
+	color:#d0d0d0;	
+}
+.social-network li:hover .fa-twitter {
+  color: #00abf0;
+}
+.social-network li:hover .fa-facebook {
+  color: #39579a;
+}
+.social-network li:hover .fa-google-plus {
+  color: #eb8984;
+}
+.social-network li:hover .fa-linkedin {
+    color: #0077b5; 
+  }
+  .social-network li:hover .fa-youtube-play {
+    color: #C84941; 
+  }
+
+
+  ul.social-buttons li{
+      margin-left:50px;
+      font-size: 20px;
+  padding:10px;
+    text-align:center;
+      width: 50px;
+      height: 50px;
+      
+      color: #fff;
+      border-radius: 100%;
+      outline: 0;
+      background-color: #212529;
+      float: left;
+  }
+  ul.social-buttons li a {
+	color:white;	
+}
+.social-buttons li:hover  {
+    background-color:rgb(229, 241, 48) ;
+  }
+
+.footer .fa-home {
+ color:white;
+}
+
+
+.page-scroll .btn-circle {
+    width: 60px;
+    height: 60px;
+    margin-top: 100px;
+    margin-left:180px;
+    padding: 12px;
+    /* border: 2px solid #fff; */
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.897) 
+}
+
+.page-scroll .btn-circle:hover{
+    background-color: rgb(200, 241, 158);
+}
+
+
+.footer-bottom-text{
+    text-align: center;
+    font-weight: 500; 
+}
+
+footer{
+    margin-top: 50px;;
+}
+
+
+/* ///////////////////responsive website///////// */
+
+
+
+
+
+@media (max-width:479px){
+
+    .title{
+        margin-left:12%;
+       }
+   
+       .mentor-heading{
+   text-align: center;
+       }
+        .mentor-image{
+          margin-left: 21%;
+          margin-bottom: 5%;
+       }
+   
+       .mentor1{
+           margin-left: 25%;
+           width:100%;
+          }
+       
+          .content p{
+              margin-left: 15%;
+              width:100%;
+          } 
+
+          .mentor2{
+            margin-left: 20%
+          }
+   
+          .team-img{
+              margin-left:17%;
+          }
+
+          .team-member{
+              margin-left:17%;
+              font-size: 20px;
+          }
+       
+          ul.social-buttons li{
+            margin-left:12%;
+          }
+   
+   
+          form{
+              margin-left:0%;
+              width:100%;
+              margin-bottom:10%;
+          }
+   
+   
+   
+          ul.social-network li{
+            margin-left:-9%;
+              width:100%;
+          
+             }
+       
+          .page-scroll .btn-circle{
+              margin-top:5%;
+              margin-left:35%;
+              margin-bottom:10%;
+          }
+    
+          .footer1 h2{
+              margin-left:25%;
+          }
+   
+          .footer1 p{
+           margin-left:11%;
+          }
+   
+          .footer1 i{
+           margin-left:11%;
+          } 
+       
+}
+
+@media(min-width: 480px) and (max-width:574) {
+
+    .mentor-heading{
+        text-align: center;
+    }
+    /* .mentor-image{
+        margin-left: 40%;
+        margin-bottom: 5%;
+     }
+
+     .mentor1{
+         margin-left: 35%;
+     }
+
+     .content p{
+         margin-left: 15%;
+     }
+
+     .mentor2{
+        margin-left: 22%;
+     } */
+
+    }
+@media(min-width: 575px) and (max-width:767px) {
+    .img{
+        margin-left: 30%;;
+    }
+    .title{
+        /* background-color: rgb(200, 241, 158); */
+        text-align: center;
+        font-size: 20px; 
+        background-color:rgb(200, 241, 158) ;
+        opacity:0.8;
+        border-radius: 20px;
+        width:50%;
+        margin-left:30%;
+       }
+
+    .mentor-heading{
+        text-align: center;
+    }
+    .mentor-image{
+        margin-left: 29%;
+        margin-bottom: 5%;
+     }
+
+     .mentor1{
+         margin-left: 35%;
+     }
+
+     .content p{
+         margin-left: 15%;
+     }
+
+     .mentor2{
+        margin-left: 22%;
+     }
+
+
+  .team-img{
+      margin-left: 25%;;
+  }
+
+  ul.social-buttons li{
+    margin-left:16%;
+  }
+form{
+    width:90%;
+    margin-top:0%;
+}
+.page-scroll .btn-circle{
+    margin-top:5%;
+    margin-left:30%;
+    margin-bottom:10%;
+}
+
+.footer1{
+    margin-left:55%;
+    margin-top:-33%;
+}
+    
+}
+
+
+
+
+ @media (min-width: 768px) and (max-width:991px){
+ 
+ .img{
+    margin-left: 0%;
+}
+
+.title{
+    margin-left: 4%;
+}
+
+.mentor-heading{
+    text-align: center;;
+}
+
+.mentor1{
+    margin-left: 15%;
+}
+
+.content p{
+    margin-left: 15%;
+}
+
+.mentor2{
+    margin-left:15%;
+}
+
+.team-img{
+    width:175px;
+     height:175px;
+     border-radius: 150px;
+    margin-left: 15%;
+    
+}
+
+.team-member{
+    font-size: 15px;
+    margin-left: -5%;
+}
+
+ul.social-buttons li{
+    margin-left:8%;
+    height:40px;
+    width:40px;
+    font-size: 19px;
+    padding: 8px;
+}
+
+form{
+    margin-left: -4%;
+    width:100%;
+}
+
+.page-scroll .btn-circle{
+    margin-top:5%;
+    margin-left:25%;
+    margin-bottom:10%;
+}
+
+
+ul.social-network{
+    margin-left:1%;
+}
+ul.social-network li{
+    margin-left:-9%;
+    width:100%;
+           }
+           
+
+ .social h2{
+       margin-left: -10%;
+      } 
+
+
+
+    }
+
+
+
+
+
+@media (min-width: 992px) {
+    .team-img{
+        margin-left:10%;
+    }
+    ul.social-buttons li{
+        margin-left:12%;
+      }
+
+      
+      form{
+        margin-left:0%;
+        width:80%;
+        margin-bottom:10%;
+    }
+
+    
+
+    ul.social-network li{
+        margin-left:1%;
+        width:100%;
+               }
+
+               .page-scroll .btn-circle{
+                margin-top:8%;
+                margin-left:35%;
+                margin-bottom:10%;
+            }
+
+}
+
+
+/* 
+@media only screen and (min-width: 800px) {
+
+    ul.social-buttons li{
+        margin-left:15%;
+      }
+
+      form{
+          margin-left:0%;
+          width:80%;   
+      }
+      .page-scroll .btn-circle{
+        margin-top:8%;
+        margin-left:35%;
+        margin-bottom:10%;
+    }
+
+    .team-member{
+        margin-left:23%;
+    }
+
+}  */
